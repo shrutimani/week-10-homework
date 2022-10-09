@@ -1,0 +1,882 @@
+[
+ {
+   "States": "A & N Islands",
+   "year": 2013,
+   "Primary_Total": "0.68",
+   "Primary": 68,
+   "Secondary _Total": "5.56",
+   "Secondary": 556
+ },
+ {
+   "States": "A & N Islands",
+   "year": 2014,
+   "Primary_Total": "1.21",
+   "Primary": 121,
+   "Secondary _Total": "7.2",
+   "Secondary": 720
+ },
+ {
+   "States": "A & N Islands",
+   "year": 2015,
+   "Primary_Total": "0.51",
+   "Primary": 51,
+   "Secondary _Total": "9.87",
+   "Secondary": 987
+ },
+ {
+   "States": "Andhra Pradesh",
+   "year": 2013,
+   "Primary_Total": "3.18",
+   "Primary": 318,
+   "Secondary _Total": "12.72",
+   "Secondary": 1272
+ },
+ {
+   "States": "Andhra Pradesh",
+   "year": 2014,
+   "Primary_Total": "4.35",
+   "Primary": 435,
+   "Secondary _Total": "12.65",
+   "Secondary": 1265
+ },
+ {
+   "States": "Andhra Pradesh",
+   "year": 2015,
+   "Primary_Total": "6.72",
+   "Primary": 672,
+   "Secondary _Total": "15.71",
+   "Secondary": 1571
+ },
+ {
+   "States": "Arunachal  Pradesh",
+   "year": 2014,
+   "Primary_Total": "10.89",
+   "Primary": 1089,
+   "Secondary _Total": "14.49",
+   "Secondary": 1449
+ },
+ {
+   "States": "Arunachal Pradesh",
+   "year": 2013,
+   "Primary_Total": "15.16",
+   "Primary": 1516,
+   "Secondary _Total": "12.93",
+   "Secondary": 1293
+ },
+ {
+   "States": "Arunachal Pradesh",
+   "year": 2015,
+   "Primary_Total": "10.82",
+   "Primary": 1082,
+   "Secondary _Total": "17.11",
+   "Secondary": 1711
+ },
+ {
+   "States": "Assam",
+   "year": 2013,
+   "Primary_Total": "6.24",
+   "Primary": 624,
+   "Secondary _Total": "26.77",
+   "Secondary": 2677
+ },
+ {
+   "States": "Assam",
+   "year": 2014,
+   "Primary_Total": "7.44",
+   "Primary": 744,
+   "Secondary _Total": "30.43",
+   "Secondary": 3043
+ },
+ {
+   "States": "Assam",
+   "year": 2015,
+   "Primary_Total": "15.36",
+   "Primary": 1536,
+   "Secondary _Total": "27.06",
+   "Secondary": 2706
+ },
+ {
+   "States": "Bihar",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "30.14",
+   "Secondary": 3014
+ },
+ {
+   "States": "Bihar",
+   "year": 2014,
+   "Primary_Total": "2.09",
+   "Primary": 209,
+   "Secondary _Total": "25.33",
+   "Secondary": 2533
+ },
+ {
+   "States": "Bihar",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "25.9",
+   "Secondary": 2590
+ },
+ {
+   "States": "Chandigarh",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "NR",
+   "Secondary": 0
+ },
+ {
+   "States": "Chandigarh",
+   "year": 2014,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "NR",
+   "Secondary": 0
+ },
+ {
+   "States": "Chandigarh",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "NR",
+   "Secondary": 0
+ },
+ {
+   "States": "Chhattisgarh",
+   "year": 2013,
+   "Primary_Total": "4.14",
+   "Primary": 414,
+   "Secondary _Total": "14.86",
+   "Secondary": 1486
+ },
+ {
+   "States": "Chhattisgarh",
+   "year": 2014,
+   "Primary_Total": "1.42",
+   "Primary": 142,
+   "Secondary _Total": "23.41",
+   "Secondary": 2341
+ },
+ {
+   "States": "Chhattisgarh",
+   "year": 2015,
+   "Primary_Total": "2.91",
+   "Primary": 291,
+   "Secondary _Total": "21.26",
+   "Secondary": 2126
+ },
+ {
+   "States": "Dadra & Nagar Haveli",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "24.41",
+   "Secondary": 2441
+ },
+ {
+   "States": "Dadra & Nagar Haveli",
+   "year": 2014,
+   "Primary_Total": "1.57",
+   "Primary": 157,
+   "Secondary _Total": "28.59",
+   "Secondary": 2859
+ },
+ {
+   "States": "Dadra & Nagar Haveli",
+   "year": 2015,
+   "Primary_Total": "1.47",
+   "Primary": 147,
+   "Secondary _Total": "16.77",
+   "Secondary": 1677
+ },
+ {
+   "States": "Daman & Diu",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "11.52",
+   "Secondary": 1152
+ },
+ {
+   "States": "Daman & Diu",
+   "year": 2014,
+   "Primary_Total": "0.85",
+   "Primary": 85,
+   "Secondary _Total": "19.86",
+   "Secondary": 1986
+ },
+ {
+   "States": "Daman & Diu",
+   "year": 2015,
+   "Primary_Total": "1.11",
+   "Primary": 111,
+   "Secondary _Total": "32.27",
+   "Secondary": 3227
+ },
+ {
+   "States": "Delhi",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "5.32",
+   "Secondary": 532
+ },
+ {
+   "States": "Delhi",
+   "year": 2014,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "8.9",
+   "Secondary": 890
+ },
+ {
+   "States": "Delhi",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "11.81",
+   "Secondary": 1181
+ },
+ {
+   "States": "Goa",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "7.96",
+   "Secondary": 796
+ },
+ {
+   "States": "Goa",
+   "year": 2014,
+   "Primary_Total": "0.2",
+   "Primary": 20,
+   "Secondary _Total": "9.58",
+   "Secondary": 958
+ },
+ {
+   "States": "Goa",
+   "year": 2015,
+   "Primary_Total": "0.73",
+   "Primary": 73,
+   "Secondary _Total": "11.15",
+   "Secondary": 1115
+ },
+ {
+   "States": "Gujarat",
+   "year": 2013,
+   "Primary_Total": "0.74",
+   "Primary": 74,
+   "Secondary _Total": "13.55",
+   "Secondary": 1355
+ },
+ {
+   "States": "Gujarat",
+   "year": 2014,
+   "Primary_Total": "0.76",
+   "Primary": 76,
+   "Secondary _Total": "21.61",
+   "Secondary": 2161
+ },
+ {
+   "States": "Gujarat",
+   "year": 2015,
+   "Primary_Total": "0.89",
+   "Primary": 89,
+   "Secondary _Total": "25.04",
+   "Secondary": 2504
+ },
+ {
+   "States": "Haryana",
+   "year": 2013,
+   "Primary_Total": "1.29",
+   "Primary": 129,
+   "Secondary _Total": "8.98",
+   "Secondary": 898
+ },
+ {
+   "States": "Haryana",
+   "year": 2014,
+   "Primary_Total": "0.41",
+   "Primary": 41,
+   "Secondary _Total": "12.51",
+   "Secondary": 1251
+ },
+ {
+   "States": "Haryana",
+   "year": 2015,
+   "Primary_Total": "5.61",
+   "Primary": 561,
+   "Secondary _Total": "15.89",
+   "Secondary": 1589
+ },
+ {
+   "States": "Himachal Pradesh",
+   "year": 2013,
+   "Primary_Total": "0.45",
+   "Primary": 45,
+   "Secondary _Total": "8.37",
+   "Secondary": 837
+ },
+ {
+   "States": "Himachal Pradesh",
+   "year": 2014,
+   "Primary_Total": "0.46",
+   "Primary": 46,
+   "Secondary _Total": "9.09",
+   "Secondary": 909
+ },
+ {
+   "States": "Himachal Pradesh",
+   "year": 2015,
+   "Primary_Total": "0.64",
+   "Primary": 64,
+   "Secondary _Total": "6.07",
+   "Secondary": 607
+ },
+ {
+   "States": "Jammu & Kashmir",
+   "year": 2013,
+   "Primary_Total": "6.3",
+   "Primary": 630,
+   "Secondary _Total": "17.33",
+   "Secondary": 1733
+ },
+ {
+   "States": "Jammu & Kashmir",
+   "year": 2014,
+   "Primary_Total": "5.46",
+   "Primary": 546,
+   "Secondary _Total": "15.36",
+   "Secondary": 1536
+ },
+ {
+   "States": "Jammu & Kashmir",
+   "year": 2015,
+   "Primary_Total": "6.79",
+   "Primary": 679,
+   "Secondary _Total": "17.28",
+   "Secondary": 1728
+ },
+ {
+   "States": "Jharkhand",
+   "year": 2013,
+   "Primary_Total": "7.21",
+   "Primary": 721,
+   "Secondary _Total": "18.5",
+   "Secondary": 1850
+ },
+ {
+   "States": "Jharkhand",
+   "year": 2014,
+   "Primary_Total": "6.41",
+   "Primary": 641,
+   "Secondary _Total": "23.15",
+   "Secondary": 2315
+ },
+ {
+   "States": "Jharkhand",
+   "year": 2015,
+   "Primary_Total": "5.48",
+   "Primary": 548,
+   "Secondary _Total": "24",
+   "Secondary": 2400
+ },
+ {
+   "States": "Karnataka",
+   "year": 2013,
+   "Primary_Total": "2.97",
+   "Primary": 297,
+   "Secondary _Total": "39.92",
+   "Secondary": 3992
+ },
+ {
+   "States": "Karnataka",
+   "year": 2014,
+   "Primary_Total": "2.32",
+   "Primary": 232,
+   "Secondary _Total": "27.57",
+   "Secondary": 2757
+ },
+ {
+   "States": "Karnataka",
+   "year": 2015,
+   "Primary_Total": "2.02",
+   "Primary": 202,
+   "Secondary _Total": "26.18",
+   "Secondary": 2618
+ },
+ {
+   "States": "Kerala",
+   "year": 2013,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "9.45",
+   "Secondary": 945
+ },
+ {
+   "States": "Kerala",
+   "year": 2014,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "14.46",
+   "Secondary": 1446
+ },
+ {
+   "States": "Kerala",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "12.32",
+   "Secondary": 1232
+ },
+ {
+   "States": "Lakshadweep",
+   "year": 2013,
+   "Primary_Total": "2.5",
+   "Primary": 250,
+   "Secondary _Total": "7.68",
+   "Secondary": 768
+ },
+ {
+   "States": "Lakshadweep",
+   "year": 2014,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "8.03",
+   "Secondary": 803
+ },
+ {
+   "States": "Lakshadweep",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "6.76",
+   "Secondary": 676
+ },
+ {
+   "States": "Madhya  Pradesh",
+   "year": 2013,
+   "Primary_Total": "6.11",
+   "Primary": 611,
+   "Secondary _Total": "13.63",
+   "Secondary": 1363
+ },
+ {
+   "States": "Madhya Pradesh",
+   "year": 2014,
+   "Primary_Total": "10.14",
+   "Primary": 1014,
+   "Secondary _Total": "26.47",
+   "Secondary": 2647
+ },
+ {
+   "States": "Madhya Pradesh",
+   "year": 2015,
+   "Primary_Total": "6.59",
+   "Primary": 659,
+   "Secondary _Total": "24.77",
+   "Secondary": 2477
+ },
+ {
+   "States": "Maharashtra",
+   "year": 2013,
+   "Primary_Total": "0.97",
+   "Primary": 97,
+   "Secondary _Total": "16.2",
+   "Secondary": 1620
+ },
+ {
+   "States": "Maharashtra",
+   "year": 2014,
+   "Primary_Total": "0.55",
+   "Primary": 55,
+   "Secondary _Total": "14.47",
+   "Secondary": 1447
+ },
+ {
+   "States": "Maharashtra",
+   "year": 2015,
+   "Primary_Total": "1.26",
+   "Primary": 126,
+   "Secondary _Total": "12.87",
+   "Secondary": 1287
+ },
+ {
+   "States": "Manipur",
+   "year": 2013,
+   "Primary_Total": "9.86",
+   "Primary": 986,
+   "Secondary _Total": "9.75",
+   "Secondary": 975
+ },
+ {
+   "States": "Manipur",
+   "year": 2014,
+   "Primary_Total": "18",
+   "Primary": 1800,
+   "Secondary _Total": "13.81",
+   "Secondary": 1381
+ },
+ {
+   "States": "Manipur",
+   "year": 2015,
+   "Primary_Total": "9.66",
+   "Primary": 966,
+   "Secondary _Total": "14.38",
+   "Secondary": 1438
+ },
+ {
+   "States": "Meghalaya",
+   "year": 2013,
+   "Primary_Total": "10.14",
+   "Primary": 1014,
+   "Secondary _Total": "26.03",
+   "Secondary": 2603
+ },
+ {
+   "States": "Meghalaya",
+   "year": 2014,
+   "Primary_Total": "10.34",
+   "Primary": 1034,
+   "Secondary _Total": "24.75",
+   "Secondary": 2475
+ },
+ {
+   "States": "Meghalaya",
+   "year": 2015,
+   "Primary_Total": "9.46",
+   "Primary": 946,
+   "Secondary _Total": "20.52",
+   "Secondary": 2052
+ },
+ {
+   "States": "Mizoram",
+   "year": 2013,
+   "Primary_Total": "24.11",
+   "Primary": 2411,
+   "Secondary _Total": "21.42",
+   "Secondary": 2142
+ },
+ {
+   "States": "Mizoram",
+   "year": 2014,
+   "Primary_Total": "12.96",
+   "Primary": 1296,
+   "Secondary _Total": "18.7",
+   "Secondary": 1870
+ },
+ {
+   "States": "Mizoram",
+   "year": 2015,
+   "Primary_Total": "10.1",
+   "Primary": 1010,
+   "Secondary _Total": "21.88",
+   "Secondary": 2188
+ },
+ {
+   "States": "Nagaland",
+   "year": 2013,
+   "Primary_Total": "7.07",
+   "Primary": 707,
+   "Secondary _Total": "26.51",
+   "Secondary": 2651
+ },
+ {
+   "States": "Nagaland",
+   "year": 2014,
+   "Primary_Total": "19.41",
+   "Primary": 1941,
+   "Secondary _Total": "35.11",
+   "Secondary": 3511
+ },
+ {
+   "States": "Nagaland",
+   "year": 2015,
+   "Primary_Total": "5.61",
+   "Primary": 561,
+   "Secondary _Total": "18.23",
+   "Secondary": 1823
+ },
+ {
+   "States": "Odisha",
+   "year": 2013,
+   "Primary_Total": "3.56",
+   "Primary": 356,
+   "Secondary _Total": "49.86",
+   "Secondary": 4986
+ },
+ {
+   "States": "Odisha",
+   "year": 2014,
+   "Primary_Total": "2.94",
+   "Primary": 294,
+   "Secondary _Total": "49.48",
+   "Secondary": 4948
+ },
+ {
+   "States": "Odisha",
+   "year": 2015,
+   "Primary_Total": "2.86",
+   "Primary": 286,
+   "Secondary _Total": "29.56",
+   "Secondary": 2956
+ },
+ {
+   "States": "Puducherry",
+   "year": 2013,
+   "Primary_Total": "0.34",
+   "Primary": 34,
+   "Secondary _Total": "15.21",
+   "Secondary": 1521
+ },
+ {
+   "States": "Puducherry",
+   "year": 2014,
+   "Primary_Total": "0.66",
+   "Primary": 66,
+   "Secondary _Total": "14.24",
+   "Secondary": 1424
+ },
+ {
+   "States": "Puducherry",
+   "year": 2015,
+   "Primary_Total": "0.37",
+   "Primary": 37,
+   "Secondary _Total": "12.19",
+   "Secondary": 1219
+ },
+ {
+   "States": "Punjab",
+   "year": 2013,
+   "Primary_Total": "1.99",
+   "Primary": 199,
+   "Secondary _Total": "9.8",
+   "Secondary": 980
+ },
+ {
+   "States": "Punjab",
+   "year": 2014,
+   "Primary_Total": "1.29",
+   "Primary": 129,
+   "Secondary _Total": "8.83",
+   "Secondary": 883
+ },
+ {
+   "States": "Punjab",
+   "year": 2015,
+   "Primary_Total": "3.05",
+   "Primary": 305,
+   "Secondary _Total": "8.86",
+   "Secondary": 886
+ },
+ {
+   "States": "Rajasthan",
+   "year": 2013,
+   "Primary_Total": "7.97",
+   "Primary": 797,
+   "Secondary _Total": "13.65",
+   "Secondary": 1365
+ },
+ {
+   "States": "Rajasthan",
+   "year": 2014,
+   "Primary_Total": "8.39",
+   "Primary": 839,
+   "Secondary _Total": "18.77",
+   "Secondary": 1877
+ },
+ {
+   "States": "Rajasthan",
+   "year": 2015,
+   "Primary_Total": "5.02",
+   "Primary": 502,
+   "Secondary _Total": "13.48",
+   "Secondary": 1348
+ },
+ {
+   "States": "Sikkim",
+   "year": 2013,
+   "Primary_Total": "3.6",
+   "Primary": 360,
+   "Secondary _Total": "9.23",
+   "Secondary": 923
+ },
+ {
+   "States": "Sikkim",
+   "year": 2014,
+   "Primary_Total": "4.57",
+   "Primary": 457,
+   "Secondary _Total": "12.89",
+   "Secondary": 1289
+ },
+ {
+   "States": "Sikkim",
+   "year": 2015,
+   "Primary_Total": "2.27",
+   "Primary": 227,
+   "Secondary _Total": "15.89",
+   "Secondary": 1589
+ },
+ {
+   "States": "Tamil  Nadu",
+   "year": 2013,
+   "Primary_Total": "4.06",
+   "Primary": 406,
+   "Secondary _Total": "10.2",
+   "Secondary": 1020
+ },
+ {
+   "States": "Tamil Nadu",
+   "year": 2014,
+   "Primary_Total": "0.46",
+   "Primary": 46,
+   "Secondary _Total": "12.2",
+   "Secondary": 1220
+ },
+ {
+   "States": "Tamil Nadu",
+   "year": 2015,
+   "Primary_Total": "NR",
+   "Primary": 0,
+   "Secondary _Total": "8.1",
+   "Secondary": 810
+ },
+ {
+   "States": "Telangana",
+   "year": 2014,
+   "Primary_Total": "5.81",
+   "Primary": 581,
+   "Secondary _Total": "17.43",
+   "Secondary": 1743
+ },
+ {
+   "States": "Telangana",
+   "year": 2015,
+   "Primary_Total": "2.08",
+   "Primary": 208,
+   "Secondary _Total": "15.53",
+   "Secondary": 1553
+ },
+ {
+   "States": "Tripura",
+   "year": 2013,
+   "Primary_Total": "2.22",
+   "Primary": 222,
+   "Secondary _Total": "25.5",
+   "Secondary": 2550
+ },
+ {
+   "States": "Tripura",
+   "year": 2014,
+   "Primary_Total": "3.58",
+   "Primary": 358,
+   "Secondary _Total": "25.09",
+   "Secondary": 2509
+ },
+ {
+   "States": "Tripura",
+   "year": 2015,
+   "Primary_Total": "1.28",
+   "Primary": 128,
+   "Secondary _Total": "28.42",
+   "Secondary": 2842
+ },
+ {
+   "States": "Uttar Pradesh",
+   "year": 2013,
+   "Primary_Total": "10.28",
+   "Primary": 1028,
+   "Secondary _Total": "NR",
+   "Secondary": 0
+ },
+ {
+   "States": "Uttar Pradesh",
+   "year": 2014,
+   "Primary_Total": "7.08",
+   "Primary": 708,
+   "Secondary _Total": "7.3",
+   "Secondary": 730
+ },
+ {
+   "States": "Uttar Pradesh",
+   "year": 2015,
+   "Primary_Total": "8.58",
+   "Primary": 858,
+   "Secondary _Total": "10.22",
+   "Secondary": 1022
+ },
+ {
+   "States": "Uttarakhand",
+   "year": 2013,
+   "Primary_Total": "1.16",
+   "Primary": 116,
+   "Secondary _Total": "9.68",
+   "Secondary": 968
+ },
+ {
+   "States": "Uttarakhand",
+   "year": 2014,
+   "Primary_Total": "3.07",
+   "Primary": 307,
+   "Secondary _Total": "8.7",
+   "Secondary": 870
+ },
+ {
+   "States": "Uttarakhand",
+   "year": 2015,
+   "Primary_Total": "4.04",
+   "Primary": 404,
+   "Secondary _Total": "10.4",
+   "Secondary": 1040
+ },
+ {
+   "States": "West Bengal",
+   "year": 2013,
+   "Primary_Total": "6.3",
+   "Primary": 630,
+   "Secondary _Total": "17.3",
+   "Secondary": 1730
+ },
+ {
+   "States": "West Bengal",
+   "year": 2014,
+   "Primary_Total": "2.91",
+   "Primary": 291,
+   "Secondary _Total": "18.34",
+   "Secondary": 1834
+ },
+ {
+   "States": "West Bengal",
+   "year": 2015,
+   "Primary_Total": "1.47",
+   "Primary": 147,
+   "Secondary _Total": "17.8",
+   "Secondary": 1780
+ },
+ {
+   "States": "All India",
+   "year": 2013,
+   "Primary_Total": "4.67",
+   "Primary": 467,
+   "Secondary _Total": "14.54",
+   "Secondary": 1454
+ },
+ {
+   "States": "All India",
+   "year": 2014,
+   "Primary_Total": "4.34",
+   "Primary": 434,
+   "Secondary _Total": "17.86",
+   "Secondary": 1786
+ },
+ {
+   "States": "All India",
+   "year": 2015,
+   "Primary_Total": "4.13",
+   "Primary": 413,
+   "Secondary _Total": "17.06",
+   "Secondary": 1706
+ }
+]
