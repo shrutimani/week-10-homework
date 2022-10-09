@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 550,
+    "height": 450,
+    "title": "Dropout rates in 2014 for primary students ",
+    "projection": {"type": "equirectangular"},
+     "data": {
+            "url": "https://raw.githubusercontent.com/shrutimani/week-9-homework/main/js/ne_10m_admin_1_states_provinces%20(1).topojson",
+            "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+          },
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+             "data" : {
+                "url": "https://raw.githubusercontent.com/shrutimani/week-10-homework/main/primary%20data.csv"
+             },
+             "key": "States",
+             "fields": ["States","Total"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "white"},
+      "encoding": {
+        "color": {
+            "field": "States",
+            "type": "ordinal",
+            "scale":{"type":"ordinal"},
+            "legend": {
+              "title": "Top 10 States"
+            }
+        },
+        "tooltip": [
+          {
+            "field": "properties.name", "type": "nominal", "title": "State"
+          },
+          {
+            "field": "Total", "type": "nominal", "title": "Total Number of dropouts", "format": ","
+          }
+        ]
+      }
+      }
