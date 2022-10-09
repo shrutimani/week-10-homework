@@ -1,0 +1,181 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Number of Dropouts in Primary and Secondary Students over the years",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {"name": "title_highlight_store"},
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/shrutimani/week-10-homework/main/total_final.json",
+      "format": {"type": "json", "parse": {}},
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"datum\"] && datum[\"datum\"][\"Primary\"]",
+          "as": "datum.Primary"
+        },
+        {
+          "type": "formula",
+          "expr": "datum[\"datum\"] && datum[\"datum\"][\"Secondary\"]",
+          "as": "datum.Secondary"
+        },
+        {"type": "filter", "expr": "datum.Primary > 100"},
+        {"type": "filter", "expr": "datum.Secondary > 100"},
+        {"type": "filter", "expr": "Till_Year == datum.year"}
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "title_highlight",
+      "update": "vlSelectionResolve(\"title_highlight_store\", \"union\", true, true)"
+    },
+    {
+      "name": "Till_Year",
+      "value": 2013,
+      "bind": {
+        "input": "range",
+        "min": 2013,
+        "max": 2015,
+        "step": 1,
+        "name": "Year: "
+      }
+    },
+    {
+      "name": "title_highlight_tuple",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "click"}],
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_0\", fields: title_highlight_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"datum.Primary\"], (item().isVoronoi ? datum.datum : datum)[\"datum.Secondary\"]]} : null",
+          "force": true
+        },
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "title_highlight_tuple_fields",
+      "value": [
+        {"type": "E", "field": "datum\\.Primary"},
+        {"type": "E", "field": "datum\\.Secondary"}
+      ]
+    },
+    {
+      "name": "title_highlight_toggle",
+      "value": false,
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "click"}],
+          "update": "event.shiftKey"
+        },
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "false"}
+      ]
+    },
+    {
+      "name": "title_highlight_modify",
+      "on": [
+        {
+          "events": {"signal": "title_highlight_tuple"},
+          "update": "modify(\"title_highlight_store\", title_highlight_toggle ? null : title_highlight_tuple, title_highlight_toggle ? null : true, title_highlight_toggle ? title_highlight_tuple : null)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "symbol",
+      "style": ["circle"],
+      "interactive": true,
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "opacity": [
+            {
+              "test": "!length(data(\"title_highlight_store\")) || vlSelectionTest(\"title_highlight_store\", datum)",
+              "value": 1
+            },
+            {"value": 0.1}
+          ],
+          "fill": {"scale": "color", "field": "States"},
+          "tooltip": {
+            "signal": "{\"Primary Dropouts\": isValid(datum[\"datum.Primary\"]) ? datum[\"datum.Primary\"] : \"\"+datum[\"datum.Primary\"], \"Secondary Dropouts\": isValid(datum[\"datum.Secondary\"]) ? datum[\"datum.Secondary\"] : \"\"+datum[\"datum.Secondary\"], \"year\": format(datum[\"year\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "circle"},
+          "description": {
+            "signal": "\"Secondary: \" + (isValid(datum[\"datum.Secondary\"]) ? datum[\"datum.Secondary\"] : \"\"+datum[\"datum.Secondary\"]) + \"; Primary: \" + (isValid(datum[\"datum.Primary\"]) ? datum[\"datum.Primary\"] : \"\"+datum[\"datum.Primary\"]) + \"; States: \" + (isValid(datum[\"States\"]) ? datum[\"States\"] : \"\"+datum[\"States\"]) + \"; Primary Dropouts: \" + (isValid(datum[\"datum.Primary\"]) ? datum[\"datum.Primary\"] : \"\"+datum[\"datum.Primary\"]) + \"; Secondary Dropouts: \" + (isValid(datum[\"datum.Secondary\"]) ? datum[\"datum.Secondary\"] : \"\"+datum[\"datum.Secondary\"]) + \"; year: \" + (format(datum[\"year\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "datum\\.Secondary"},
+          "y": {"scale": "y", "field": "datum\\.Primary"},
+          "shape": {"value": "circle"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "point",
+      "domain": [200, 5000],
+      "range": [0, {"signal": "width"}],
+      "padding": 0.5
+    },
+    {
+      "name": "y",
+      "type": "point",
+      "domain": [10, 3000],
+      "range": [0, {"signal": "height"}],
+      "padding": 0.5
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "source_0", "field": "States", "sort": true},
+      "range": "ordinal",
+      "interpolate": "hcl"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Secondary Dropouts",
+      "tickCount": 4,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Primary Dropouts",
+      "tickCount": 4,
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "title": "States",
+      "fill": "color",
+      "symbolType": "circle",
+      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
+    }
+  ],
+  "config": {}
+}
